@@ -13,6 +13,22 @@
 		CE0AC1A229B17528007A21FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0AC1A029B17528007A21FA /* Main.storyboard */; };
 		CE0AC1A429B1752A007A21FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0AC1A329B1752A007A21FA /* Assets.xcassets */; };
 		CE0AC1A729B1752A007A21FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0AC1A529B1752A007A21FA /* LaunchScreen.storyboard */; };
+		CE0AC1B129B176A2007A21FA /* LogInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1B029B176A2007A21FA /* LogInInteractor.swift */; };
+		CE0AC1B329B176B1007A21FA /* LogInModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1B229B176B1007A21FA /* LogInModels.swift */; };
+		CE0AC1B529B17754007A21FA /* LogInWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1B429B17754007A21FA /* LogInWorker.swift */; };
+		CE0AC1B729B177AB007A21FA /* LogInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1B629B177AB007A21FA /* LogInPresenter.swift */; };
+		CE0AC1B929B17986007A21FA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1B829B17986007A21FA /* Router.swift */; };
+		CE0AC1BB29B17BCA007A21FA /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1BA29B17BCA007A21FA /* ToDoListViewController.swift */; };
+		CE0AC1BD29B186A2007A21FA /* ToDoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1BC29B186A2007A21FA /* ToDoListInteractor.swift */; };
+		CE0AC1BF29B18700007A21FA /* ToDoListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1BE29B18700007A21FA /* ToDoListModels.swift */; };
+		CE0AC1C129B187E0007A21FA /* ToDoListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1C029B187E0007A21FA /* ToDoListWorker.swift */; };
+		CE0AC1C329B187ED007A21FA /* ToDoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1C229B187ED007A21FA /* ToDoListPresenter.swift */; };
+		CE0AC1C629B188BC007A21FA /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1C529B188BC007A21FA /* TaskManager.swift */; };
+		CE0AC1C829B188D9007A21FA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1C729B188D9007A21FA /* Task.swift */; };
+		CE0AC1CC29B1893E007A21FA /* ITaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1CB29B1893E007A21FA /* ITaskManager.swift */; };
+		CE0AC1CE29B18957007A21FA /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1CD29B18957007A21FA /* Repository.swift */; };
+		CE0AC1D029B18972007A21FA /* OrderedTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1CF29B18972007A21FA /* OrderedTaskManager.swift */; };
+		CE0AC1D229B1898E007A21FA /* SectionForTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC1D129B1898E007A21FA /* SectionForTaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,23 @@
 		CE0AC1A329B1752A007A21FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0AC1A629B1752A007A21FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0AC1A829B1752A007A21FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0AC1B029B176A2007A21FA /* LogInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInInteractor.swift; sourceTree = "<group>"; };
+		CE0AC1B229B176B1007A21FA /* LogInModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModels.swift; sourceTree = "<group>"; };
+		CE0AC1B429B17754007A21FA /* LogInWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInWorker.swift; sourceTree = "<group>"; };
+		CE0AC1B629B177AB007A21FA /* LogInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPresenter.swift; sourceTree = "<group>"; };
+		CE0AC1B829B17986007A21FA /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CE0AC1BA29B17BCA007A21FA /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		CE0AC1BC29B186A2007A21FA /* ToDoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListInteractor.swift; sourceTree = "<group>"; };
+		CE0AC1BE29B18700007A21FA /* ToDoListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListModels.swift; sourceTree = "<group>"; };
+		CE0AC1C029B187E0007A21FA /* ToDoListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListWorker.swift; sourceTree = "<group>"; };
+		CE0AC1C229B187ED007A21FA /* ToDoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListPresenter.swift; sourceTree = "<group>"; };
+		CE0AC1C529B188BC007A21FA /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		CE0AC1C729B188D9007A21FA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CE0AC1CB29B1893E007A21FA /* ITaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ITaskManager.swift; path = ../../../../ITaskManager.swift; sourceTree = "<group>"; };
+		CE0AC1CD29B18957007A21FA /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		CE0AC1CF29B18972007A21FA /* OrderedTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedTaskManager.swift; sourceTree = "<group>"; };
+		CE0AC1D129B1898E007A21FA /* SectionForTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionForTaskManager.swift; sourceTree = "<group>"; };
+		CEB5EA8B29B1B07F00DBDAD3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +73,7 @@
 		CE0AC18E29B17528007A21FA = {
 			isa = PBXGroup;
 			children = (
+				CEB5EA8B29B1B07F00DBDAD3 /* README.md */,
 				CE0AC19929B17528007A21FA /* ToDoListCleanSwift */,
 				CE0AC19829B17528007A21FA /* Products */,
 			);
@@ -56,15 +90,63 @@
 		CE0AC19929B17528007A21FA /* ToDoListCleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CE0AC1AE29B17553007A21FA /* LogInScene */,
+				CE0AC1AF29B17561007A21FA /* ToDoListScene */,
+				CE0AC1C429B188AC007A21FA /* BL */,
+				CE0AC1CA29B18921007A21FA /* Managers */,
+				CE0AC1B829B17986007A21FA /* Router.swift */,
 				CE0AC19A29B17528007A21FA /* AppDelegate.swift */,
 				CE0AC19C29B17528007A21FA /* SceneDelegate.swift */,
-				CE0AC19E29B17528007A21FA /* ViewController.swift */,
 				CE0AC1A029B17528007A21FA /* Main.storyboard */,
 				CE0AC1A329B1752A007A21FA /* Assets.xcassets */,
 				CE0AC1A529B1752A007A21FA /* LaunchScreen.storyboard */,
 				CE0AC1A829B1752A007A21FA /* Info.plist */,
 			);
 			path = ToDoListCleanSwift;
+			sourceTree = "<group>";
+		};
+		CE0AC1AE29B17553007A21FA /* LogInScene */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AC19E29B17528007A21FA /* ViewController.swift */,
+				CE0AC1B029B176A2007A21FA /* LogInInteractor.swift */,
+				CE0AC1B229B176B1007A21FA /* LogInModels.swift */,
+				CE0AC1B429B17754007A21FA /* LogInWorker.swift */,
+				CE0AC1B629B177AB007A21FA /* LogInPresenter.swift */,
+			);
+			path = LogInScene;
+			sourceTree = "<group>";
+		};
+		CE0AC1AF29B17561007A21FA /* ToDoListScene */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AC1BA29B17BCA007A21FA /* ToDoListViewController.swift */,
+				CE0AC1BC29B186A2007A21FA /* ToDoListInteractor.swift */,
+				CE0AC1BE29B18700007A21FA /* ToDoListModels.swift */,
+				CE0AC1C029B187E0007A21FA /* ToDoListWorker.swift */,
+				CE0AC1C229B187ED007A21FA /* ToDoListPresenter.swift */,
+			);
+			path = ToDoListScene;
+			sourceTree = "<group>";
+		};
+		CE0AC1C429B188AC007A21FA /* BL */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AC1C529B188BC007A21FA /* TaskManager.swift */,
+				CE0AC1C729B188D9007A21FA /* Task.swift */,
+			);
+			path = BL;
+			sourceTree = "<group>";
+		};
+		CE0AC1CA29B18921007A21FA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AC1CB29B1893E007A21FA /* ITaskManager.swift */,
+				CE0AC1CD29B18957007A21FA /* Repository.swift */,
+				CE0AC1CF29B18972007A21FA /* OrderedTaskManager.swift */,
+				CE0AC1D129B1898E007A21FA /* SectionForTaskManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +159,7 @@
 				CE0AC19329B17528007A21FA /* Sources */,
 				CE0AC19429B17528007A21FA /* Frameworks */,
 				CE0AC19529B17528007A21FA /* Resources */,
+				CEB5EA8A29B1AC6300DBDAD3 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -133,13 +216,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEB5EA8A29B1AC6300DBDAD3 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE0AC19329B17528007A21FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0AC1B929B17986007A21FA /* Router.swift in Sources */,
+				CE0AC1B129B176A2007A21FA /* LogInInteractor.swift in Sources */,
+				CE0AC1BF29B18700007A21FA /* ToDoListModels.swift in Sources */,
+				CE0AC1C129B187E0007A21FA /* ToDoListWorker.swift in Sources */,
+				CE0AC1CC29B1893E007A21FA /* ITaskManager.swift in Sources */,
 				CE0AC19F29B17528007A21FA /* ViewController.swift in Sources */,
+				CE0AC1B329B176B1007A21FA /* LogInModels.swift in Sources */,
+				CE0AC1B729B177AB007A21FA /* LogInPresenter.swift in Sources */,
+				CE0AC1C829B188D9007A21FA /* Task.swift in Sources */,
+				CE0AC1B529B17754007A21FA /* LogInWorker.swift in Sources */,
+				CE0AC1BD29B186A2007A21FA /* ToDoListInteractor.swift in Sources */,
+				CE0AC1D229B1898E007A21FA /* SectionForTaskManager.swift in Sources */,
+				CE0AC1C329B187ED007A21FA /* ToDoListPresenter.swift in Sources */,
+				CE0AC1CE29B18957007A21FA /* Repository.swift in Sources */,
 				CE0AC19B29B17528007A21FA /* AppDelegate.swift in Sources */,
+				CE0AC1D029B18972007A21FA /* OrderedTaskManager.swift in Sources */,
+				CE0AC1BB29B17BCA007A21FA /* ToDoListViewController.swift in Sources */,
+				CE0AC1C629B188BC007A21FA /* TaskManager.swift in Sources */,
 				CE0AC19D29B17528007A21FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
